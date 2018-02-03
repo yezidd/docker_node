@@ -190,7 +190,7 @@ async function sendMail() {
     from: '3050232357@qq.com', // 发送者
     to: '1143140701@qq.com', // 接受者,可以同时发送多个,以逗号隔开
     subject: '签到情况说明', // 标题
-    text: '签到成功', // 文本
+    text: '签到成功2', // 文本
   };
   transporter.sendMail(mailOptions, function (err, info) {
     if (err) {
